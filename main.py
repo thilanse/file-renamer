@@ -17,6 +17,9 @@ def rename_files(path):
                     'is.csv', 'basic.csv', 'basic_regex.csv']:
             continue
 
+        if file.split(".")[1] not in ['csv']:
+            continue
+
         print("Attempting to rename file...", file)
 
         time.sleep(0.1)
