@@ -1,0 +1,73 @@
+[
+    {
+        "path": "D:\\github-projects\\file-renamer\\test",
+        "renaming_rules": [
+            {
+                "regex": ".*lookup.*",
+                "target_filename": "lookup.csv"
+            },
+            {
+                "regex": ".*keyword.*",
+                "target_filename": "keyword.csv"
+            },
+            {
+                "regex": ".*intent_specific.*",
+                "target_filename": "is.csv"
+            },
+            {
+                "regex": ".*label_split.*",
+                "target_filename": "label_split.csv"
+            },
+            {
+                "regex": ".*basic_regex.*",
+                "target_filename": "basic_regex.csv"
+            },
+            {
+                "regex": ".*basic.*",
+                "target_filename": "basic.csv"
+            }
+        ]
+    },
+    {
+        "path": "C:\\Users\\Thilan Senanayake\\Desktop\\test",
+        "renaming_rules": [
+            {
+                "regex": ".*lookup.*",
+                "target_filename": "lookup.csv"
+            },
+            {
+                "regex": ".*keyword.*",
+                "target_filename": "keyword.csv"
+            },
+            {
+                "regex": ".*intent_specific.*",
+                "target_filename": "is.csv"
+            },
+            {
+                "regex": ".*label_split.*",
+                "target_filename": "label_split.csv"
+            },
+            {
+                "regex": ".*basic_regex.*",
+                "target_filename": "basic_regex.csv"
+            },
+            {
+                "regex": ".*basic.*",
+                "target_filename": "basic.csv"
+            }
+        ]
+    },
+    {
+        "path": "C:\\Users\\Thilan Senanayake\\Desktop\\role_def",
+        "renaming_rules": [
+            {
+                "regex": ".*Intent Specific Roles.*",
+                "target_filename": "is_roles.csv"
+            },
+            {
+                "regex": ".*CRF Roles.*",
+                "target_filename": "crf_roles.csv"
+            }
+        ]
+    }
+]
