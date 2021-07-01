@@ -1,12 +1,15 @@
+import os
+from os.path import dirname, abspath
 from threading import Thread
 
-from src.utils import read_yaml
-from src.watcher import watch_dir
+from utils import read_yaml
+from watcher import watch_dir
 
+CONF_DIRECTORY = os.path.join(dirname(dirname(abspath(__file__))), "conf")
 
 if __name__ == '__main__':
 
-    configurations = read_yaml("rename_conf.yml")
+    configurations = read_yaml(os.path.join(CONF_DIRECTORY, "rename_conf.yml"))
 
     for conf in configurations:
         renaming_rules = conf["renaming_rules"]
