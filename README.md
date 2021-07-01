@@ -9,7 +9,7 @@ env\Scripts\activate
 pip install -r requirements.txt
 ```
 
-2. Edit the renaming configrations in `rename_conf.yml`
+2. Edit the renaming configrations in `rename_conf.yml` inside the `conf` directory.
 ```
 - paths: 
     - "path1"
