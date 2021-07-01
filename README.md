@@ -12,15 +12,15 @@ pip install -r requirements.txt
 2. Edit the renaming configrations in `rename_conf.yml`
 ```
 - paths: 
-    - path1
-    - path2
+    - "path1"
+    - "path2"
   renaming_rules:
     - regex: ".*file name 1.*"
       target_filename: "new_file_name_1.csv"
     - regex: ".*file name 2.*"
       target_filename: "new_file_name_1.csv"
 
-- path: path3
+- path: "path3"
   renaming_rules:
     - regex: ".*file name 3.*"
       target_filename: "new_file_name_3.csv"
