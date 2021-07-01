@@ -2,14 +2,14 @@
 
 Follow the instructions below to activate virtual environment and set up the renaming configurations.
 
-Setup up virtual environment and install libraries
+1. Setup up virtual environment and install libraries
 ```
 python -m venv env
 env\Scripts\activate
 pip install -r requirements.txt
 ```
 
-Edit the renaming configrations in `rename_conf.yml`
+2. Edit the renaming configrations in `rename_conf.yml`
 ```
 - paths: 
     - path1
@@ -26,4 +26,4 @@ Edit the renaming configrations in `rename_conf.yml`
       target_filename: "new_file_name_3.csv"
 ```
 
-After setting up the configuration file. You can run the server by executing the `run.bat` file.
+3. After setting up the configuration file. You can run the server by executing the `run.bat` file.
