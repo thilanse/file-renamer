@@ -18,7 +18,7 @@ def rename_files(path, conf):
         if file in target_file_names:
             continue
 
-        if file.split(".")[1] not in ['csv']:
+        if file.rsplit(".", maxsplit=1)[1] not in ['csv']:
             continue
 
         print("Attempting to rename file...", file)
